@@ -94,6 +94,7 @@ function BookDetails(props) {
                   <label>Pages amount:</label> <span>{book.pagesAmount}</span>
                 </div>
                 <div className="stat-row">
+                <label>Published in:</label> <span>DOWNLOAD</span>
                   <label>Average Rating:</label> <span>{book.averageRating} / 5</span>
                 </div>
               </div>
